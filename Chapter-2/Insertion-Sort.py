@@ -30,3 +30,24 @@ def RunProblems():
     print("New Array: ", arr3)
     
 RunProblems()
+
+# Array 2
+
+# Starting on 10 looking at 20 index 1 comparing to index 0
+# [20 10 5 4 3 0 -1 50]
+
+# Swap Places
+# [10 20 5 4 3 0 -1 50]
+
+# Continue sorting parts that become unsorted
+# [10 4 20 5 3 0 -1 50]
+# [4 10 20 5 3 0 -1 50]
+
+# [4 10 5 20 3 0 -1 50]
+# [4 5 10 20 3 0 -1 50]
+
+# [4 5 10 3 20 0 -1 50] ... [3 4 5 10 20 0 -1 50]
+
+# [3 4 5 10 20 0 -1 50] ... [0 3 4 5 10 20 -1 50]
+
+# [0 3 4 5 10 20 -1 50] ... [-1 0 3 4 5 10 20 50]
