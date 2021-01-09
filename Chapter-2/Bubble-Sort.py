@@ -1,4 +1,5 @@
-
+# Worst-Case Run-Time = O(n^2)
+# Worst-Case Space-Complexity = O(1)
 def BubbleSort(Array):
     t = len(Array)
     for i in range(t):   

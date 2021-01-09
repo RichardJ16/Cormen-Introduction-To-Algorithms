@@ -1,4 +1,5 @@
-
+# Worst-Case Run-Time = O(n*log(n))
+# Worst-Case Space-Complexity = O(n)
 def MergeSort(A):
     
     L, R = split(A)

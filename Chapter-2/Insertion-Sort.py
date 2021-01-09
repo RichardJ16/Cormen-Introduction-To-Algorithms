@@ -1,4 +1,5 @@
-
+# Worst-Case Run-Time = O(n^2)
+# Worst-Case Space-Complexity = O(n)
 def InsertionSort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
