@@ -1,4 +1,3 @@
-#import numpy as np
 
 def InsertionSort(arr):
     for i in range(1, len(arr)):
